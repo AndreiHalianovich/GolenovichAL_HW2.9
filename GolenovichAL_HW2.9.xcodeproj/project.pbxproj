@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A82CD2A425E80E150084822B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD2A325E80E150084822B /* AppDelegate.swift */; };
 		A82CD2A625E80E150084822B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD2A525E80E150084822B /* SceneDelegate.swift */; };
-		A82CD2A825E80E150084822B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD2A725E80E150084822B /* ViewController.swift */; };
+		A82CD2A825E80E150084822B /* AnimatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD2A725E80E150084822B /* AnimatedViewController.swift */; };
 		A82CD2AB25E80E150084822B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82CD2A925E80E150084822B /* Main.storyboard */; };
 		A82CD2AD25E80E1A0084822B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82CD2AC25E80E1A0084822B /* Assets.xcassets */; };
 		A82CD2B025E80E1A0084822B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82CD2AE25E80E1A0084822B /* LaunchScreen.storyboard */; };
+		A82CD2C325E95BCD0084822B /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD2C225E95BCD0084822B /* Animation.swift */; };
+		FFCC74A9E7D850D97A234B76 /* Pods_GolenovichAL_HW2_9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C7BAB46C6CEFA897A2C0C2 /* Pods_GolenovichAL_HW2_9.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B477794158E194857E0AA58 /* Pods-GolenovichAL_HW2.9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolenovichAL_HW2.9.release.xcconfig"; path = "Target Support Files/Pods-GolenovichAL_HW2.9/Pods-GolenovichAL_HW2.9.release.xcconfig"; sourceTree = "<group>"; };
+		5D5C2FC17055DBE55264E8CC /* Pods-GolenovichAL_HW2.9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolenovichAL_HW2.9.debug.xcconfig"; path = "Target Support Files/Pods-GolenovichAL_HW2.9/Pods-GolenovichAL_HW2.9.debug.xcconfig"; sourceTree = "<group>"; };
+		97C7BAB46C6CEFA897A2C0C2 /* Pods_GolenovichAL_HW2_9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolenovichAL_HW2_9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82CD2A025E80E150084822B /* GolenovichAL_HW2.9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolenovichAL_HW2.9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82CD2A325E80E150084822B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A82CD2A525E80E150084822B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A82CD2A725E80E150084822B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A82CD2A725E80E150084822B /* AnimatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedViewController.swift; sourceTree = "<group>"; };
 		A82CD2AA25E80E150084822B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A82CD2AC25E80E1A0084822B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A82CD2AF25E80E1A0084822B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A82CD2B125E80E1A0084822B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82CD2C225E95BCD0084822B /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCC74A9E7D850D97A234B76 /* Pods_GolenovichAL_HW2_9.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96D94F6A74CE6B322D183576 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D5C2FC17055DBE55264E8CC /* Pods-GolenovichAL_HW2.9.debug.xcconfig */,
+				3B477794158E194857E0AA58 /* Pods-GolenovichAL_HW2.9.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A0FC2FE0456FCBAEC9495C90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97C7BAB46C6CEFA897A2C0C2 /* Pods_GolenovichAL_HW2_9.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A82CD29725E80E150084822B = {
 			isa = PBXGroup;
 			children = (
 				A82CD2A225E80E150084822B /* GolenovichAL_HW2.9 */,
 				A82CD2A125E80E150084822B /* Products */,
+				96D94F6A74CE6B322D183576 /* Pods */,
+				A0FC2FE0456FCBAEC9495C90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,56 @@
 		A82CD2A225E80E150084822B /* GolenovichAL_HW2.9 */ = {
 			isa = PBXGroup;
 			children = (
-				A82CD2A325E80E150084822B /* AppDelegate.swift */,
-				A82CD2A525E80E150084822B /* SceneDelegate.swift */,
-				A82CD2A725E80E150084822B /* ViewController.swift */,
-				A82CD2A925E80E150084822B /* Main.storyboard */,
-				A82CD2AC25E80E1A0084822B /* Assets.xcassets */,
-				A82CD2AE25E80E1A0084822B /* LaunchScreen.storyboard */,
-				A82CD2B125E80E1A0084822B /* Info.plist */,
+				A82CD2C525E95BD40084822B /* Models */,
+				A82CD2BF25E95B610084822B /* ViewControllers */,
+				A82CD2C025E95B790084822B /* Storyboards */,
+				A82CD2C125E95B820084822B /* Resources */,
+				A82CD2BC25E95B370084822B /* SupportingFiles */,
 			);
 			path = GolenovichAL_HW2.9;
+			sourceTree = "<group>";
+		};
+		A82CD2BC25E95B370084822B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A82CD2A325E80E150084822B /* AppDelegate.swift */,
+				A82CD2A525E80E150084822B /* SceneDelegate.swift */,
+				A82CD2B125E80E1A0084822B /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A82CD2BF25E95B610084822B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A82CD2A725E80E150084822B /* AnimatedViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A82CD2C025E95B790084822B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A82CD2A925E80E150084822B /* Main.storyboard */,
+				A82CD2AE25E80E1A0084822B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A82CD2C125E95B820084822B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A82CD2AC25E80E1A0084822B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A82CD2C525E95BD40084822B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A82CD2C225E95BCD0084822B /* Animation.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A82CD2B425E80E1A0084822B /* Build configuration list for PBXNativeTarget "GolenovichAL_HW2.9" */;
 			buildPhases = (
+				DDE8ED866F5548A295DD17D6 /* [CP] Check Pods Manifest.lock */,
 				A82CD29C25E80E150084822B /* Sources */,
 				A82CD29D25E80E150084822B /* Frameworks */,
 				A82CD29E25E80E150084822B /* Resources */,
+				C8CEAF44024E204EB3938D25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +201,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C8CEAF44024E204EB3938D25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GolenovichAL_HW2.9/Pods-GolenovichAL_HW2.9-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GolenovichAL_HW2.9/Pods-GolenovichAL_HW2.9-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GolenovichAL_HW2.9/Pods-GolenovichAL_HW2.9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE8ED866F5548A295DD17D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GolenovichAL_HW2.9-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A82CD29C25E80E150084822B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A82CD2A825E80E150084822B /* ViewController.swift in Sources */,
+				A82CD2A825E80E150084822B /* AnimatedViewController.swift in Sources */,
 				A82CD2A425E80E150084822B /* AppDelegate.swift in Sources */,
+				A82CD2C325E95BCD0084822B /* Animation.swift in Sources */,
 				A82CD2A625E80E150084822B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,11 +395,12 @@
 		};
 		A82CD2B525E80E1A0084822B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5C2FC17055DBE55264E8CC /* Pods-GolenovichAL_HW2.9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GolenovichAL_HW2.9/Info.plist;
+				INFOPLIST_FILE = GolenovichAL_HW2.9/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +414,12 @@
 		};
 		A82CD2B625E80E1A0084822B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B477794158E194857E0AA58 /* Pods-GolenovichAL_HW2.9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GolenovichAL_HW2.9/Info.plist;
+				INFOPLIST_FILE = GolenovichAL_HW2.9/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
